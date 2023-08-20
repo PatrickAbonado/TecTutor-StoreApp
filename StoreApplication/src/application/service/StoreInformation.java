@@ -159,9 +159,11 @@ public class StoreInformation implements Display{
         boolean isFound = false;
         int id = 0;
 
-        System.out.print("Enter a Product ID: ");
+        
         while(true){
             s = new Scanner(System.in);
+
+            System.out.print("Enter a Product ID: ");
 
             try{
                 id = s.nextInt();
